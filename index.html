@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TITLE GOES HERE</title>
+  <meta name="description" content="Lamasion.">
+  <meta name="author" content="Meeee">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <section>
+        <div id="home">
+            <h1>HOLA</h1>
+            <form onsubmit="nameHandler(); return false;">
+                <label for="name"><h2>Por favor, ingrese su nombre:</h2></label><br>
+                <input type="text" id="name" name="name"><br>
+            </form>
+        </div>
+        <div id="whoAreYou" style="display: none;">
+            <h1 style="text-align: center;">???</h1>
+            <img src="img/whoDat.jpg" class="center" style="margin-top: 10px; margin-bottom: 20px;">
+            <h3 onclick="goToHome();" id="goToHome">volver</h3>
+        </div>
+        <div id="helloGf" style="display: none;">
+            <h1>HELLO //TODO</h1>
+        </div>
+    </section>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
