@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>TITLE GOES HERE</title>
+  <title>🐹🎈</title>
   <meta name="description" content="Lamasion.">
   <meta name="author" content="Meeee">
 
@@ -18,7 +18,7 @@
         <div id="home">
             <h1>HOLA</h1>
             <form onsubmit="nameHandler(); return false;">
-                <label for="name"><h2>Por favor, ingrese su nombre:</h2></label><br>
+                <label for="name"><h2>Por favor, ingrese su nombre</h2></label><br>
                 <input type="text" id="name" name="name"><br>
             </form>
         </div>
@@ -27,8 +27,29 @@
             <img src="img/whoDat.jpg" class="center" style="margin-top: 10px; margin-bottom: 20px;">
             <h3 onclick="goToHome();" id="goToHome">volver</h3>
         </div>
-        <div id="helloGf" style="display: none;">
-            <h1>HELLO //TODO</h1>
+        <div id="helloDai" style="display: none;">
+            <h1>HOLA DAICHU</h1>
+            <label for="nobioSize"><h2>Para validar su identidad, por favor seleccione la altura de su nobio</h2></label><br>
+            <select onchange="getSize();" name="nobioSize" id="nobioSize">
+                <option value="" selected disabled hidden></option>
+                <option value="tall">alto</option>
+                <option value="smol">alton't</option>
+            </select>
+        </div>
+        <div id="selectedTall" style="display: none;">
+            <h1 style="text-align: center;">IDENTIDAD VALIDADA</h1>
+            <img src="img/happyKitten.png" style="display: block; margin-left: auto; margin-right: auto; height: 175px; margin-top: 20px;">
+            <h2 style="margin-bottom: 30px; text-align: center;">Si soi, si soi</h2>
+            <h3 onclick="goToHelloDai();" id="goToHelloDai" style="float: left; width: 15%;">volver</h3>
+            <h3 onclick="goToHelloGf();" id="goToHelloGf" style="float: right; width: 23%;">continuar</h3>
+        </div>
+        <div id="selectedSmol" style="display: none;">
+            <h1 style="text-align: center;">IDENTIDAD VALIDADA</h1>
+            <img src="img/angryLamb.png" style="margin-left: 22%; height: 175px; margin-top: 20px;">
+            <img src="img/hamsterDetention.jpeg" style="height: 175px; margin-top: 20px;">
+            <h2 style="margin-bottom: 30px; text-align: center;">No soi, pero es algo que diría mi amor</h2>
+            <h3 onclick="goToHelloDai();" id="goToHelloDai" style="float: left; width: 15%;">volver</h3>
+            <h3 onclick="goToHelloGf();" id="goToHelloGf" style="float: right; width: 23%;">continuar</h3>
         </div>
     </section>
   <script src="js/scripts.js"></script>

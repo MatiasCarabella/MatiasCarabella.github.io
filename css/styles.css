@@ -52,7 +52,26 @@ h3 {
     width: 100%;
   }
 
+#nobioSize {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #goToHome:hover {
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+}
+
+#goToHelloDai:hover {
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+}
+
+#goToHelloGf {
+    width: 19%;
+}
+
+#goToHelloGf:hover {
     border-bottom: 2px solid #fff;
     margin-bottom: -2px;
 }
