@@ -60,11 +60,13 @@ h3 {
 #goToHome:hover {
     border-bottom: 2px solid #fff;
     margin-bottom: -2px;
+    cursor: pointer;
 }
 
 #goToHelloDai:hover {
     border-bottom: 2px solid #fff;
     margin-bottom: -2px;
+    cursor: pointer;
 }
 
 #goToHelloGf {
@@ -74,6 +76,47 @@ h3 {
 #goToHelloGf:hover {
     border-bottom: 2px solid #fff;
     margin-bottom: -2px;
+    cursor: pointer;
+}
+
+#goToThinking {
+    width: 28%;
+}
+
+#goToThinking:hover {
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+    cursor: pointer;
+}
+
+#goToThinking2 {
+    width: 28%;
+}
+
+#goToThinking2:hover {
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+    cursor: pointer;
+}
+
+#goToIdea {
+    width: 40%;
+}
+
+#goToIdea:hover {
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+    cursor: pointer;
+}
+
+#goToCollage {
+    width: 31%;
+}
+
+#goToCollage:hover {
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+    cursor: pointer;
 }
 
 input[type=text] {

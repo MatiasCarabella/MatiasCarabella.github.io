@@ -11,7 +11,9 @@ function nameHandler() {
 
   function goToHome() {
     document.getElementById("whoAreYou").style.display="none";
+    document.getElementById("collage").style.display="none";
     document.getElementById("name").value = '';
+    document.getElementById("nobioSize").value = "";
     document.getElementById("home").style.display="block";
   }
 
@@ -35,4 +37,30 @@ function nameHandler() {
     document.getElementById("nobioSize").value = "";
     document.getElementById("selectedTall").style.display="none";
     document.getElementById("selectedSmol").style.display="none";
+  }
+
+  function goToHelloGf() {
+    document.getElementById("selectedTall").style.display="none";
+    document.getElementById("selectedSmol").style.display="none";
+    document.getElementById("helloGf").style.display="block";
+  }
+
+  function goToThinking() {
+    document.getElementById("helloGf").style.display="none";
+    document.getElementById("thinking").style.display="block";
+  }
+
+  function goToThinking2() {
+    document.getElementById("thinking").style.display="none";
+    document.getElementById("thinking2").style.display="block";
+  }
+
+  function goToIdea() {
+    document.getElementById("thinking2").style.display="none";
+    document.getElementById("idea").style.display="block";
+  }
+
+  function goToCollage() {
+    document.getElementById("idea").style.display="none";
+    document.getElementById("collage").style.display="block";
   }
